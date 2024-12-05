@@ -15,6 +15,8 @@ import ProductDetails from "./components/ProductDetails";
 import Login from "./components/Login";
 import NotFound from "./components/NotFound";
 import ShoppingContext from "./components/Context/shopping/shoppingContext";
+//import ShoppingContext from "../Context/shopping/ShoppingContext";
+import { ShoppingContext } from "../Context/shopping/ShoppingContext";
 import { useEffect } from "react";
 import { auth } from "./firebase";
 import Checkout from "./components/Checkout";
@@ -22,6 +24,7 @@ import Payment from "./components/Payment";
 
 const promise = loadStripe(
   'pk_test_51PBvOfKbibGJxKjenJQKWV8lxranRS80LBPbKwLZDXvE65wK34hcYmWVtaxJSDnkttzAOpVFDpab3SEBiX57SSCI002wXKvPL6'
+  "pk_test_51PBvOfKbibGJxKjenJQKWV8lxranRS80LBPbKwLZDXvE65wK34hcYmWVtaxJSDnkttzAOpVFDpab3SEBiX57SSCI002wXKvPL6"
 );
 
 const App = () => {
@@ -38,6 +41,7 @@ const App = () => {
       }
     });
   }, []);
+  }, [setUser]);
   return (
     <>
       <Header />

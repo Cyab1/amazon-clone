@@ -1,6 +1,9 @@
 import "./Checkout.css";
 import React, { useContext } from "react";
-import ShoppingContext from "../Context/shopping/shoppingContext";
+
+//import ShoppingContext from "../Context/shopping/shoppingContext";
+import { ShoppingContext } from "../Context/shopping/ShoppingContext";
+
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal";
 

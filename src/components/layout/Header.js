@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ShoppingContext from "../Context/shopping/shoppingContext";
+import { ShoppingContext } from '../Context/shopping/ShoppingContext';
+
+//import ShoppingContext from "../Context/shopping/ShoppingContext";
 import "./Header.css";
 import { auth } from "../../firebase";
 //import { Route } from "react-router-dom/cjs/react-router-dom.min";

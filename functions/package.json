@@ -14,8 +14,16 @@
   },
   "main": "index.js",
   "dependencies": {
+<<<<<<< HEAD
     "firebase-admin": "^11.8.0",
     "firebase-functions": "^4.3.1"
+=======
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^15.5.0"
+>>>>>>> 0fd6362 (updated commit)
   },
   "devDependencies": {
     "eslint": "^8.15.0",

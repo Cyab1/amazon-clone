@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { ShoppingState } from "./components/Context/shopping/ShoppingState";
+import { ShoppingState } from "./Context/shopping/ShoppingState";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

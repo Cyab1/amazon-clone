@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import ShoppingContext from "./Context/shopping/shoppingContext";
+//import ShoppingContext from "../Context/shopping/shoppingContext";
+import { ShoppingContext } from '../Context/shopping/ShoppingContext';
 import "./CheckoutProduct.css";
 
 const CheckoutProduct = ({ id, title, image, rating, price, hideButton }) => {
